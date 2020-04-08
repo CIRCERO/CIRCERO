@@ -1,0 +1,149 @@
+[2020-03-17 23:18:44Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2020-03-17 23:18:45Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2020-03-17 23:18:45Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19041.
+[2020-03-17 23:18:45Z INFO Listener] Version: 2.165.2
+[2020-03-17 23:18:45Z INFO Listener] Commit: fcf795d86d880b9f0bd10f9713d29cb9784ecef5
+[2020-03-17 23:18:45Z INFO Listener] Culture: en-GB
+[2020-03-17 23:18:45Z INFO Listener] UI Culture: en-US
+[2020-03-17 23:18:45Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 23:18:45Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 23:18:45Z INFO Listener] Validating directory permissions for: 'K:\actions-runner'
+[2020-03-17 23:18:45Z INFO CommandLineParser] Parse
+[2020-03-17 23:18:45Z INFO CommandLineParser] Parsing 1 args
+[2020-03-17 23:18:45Z INFO CommandLineParser] parsing argument
+[2020-03-17 23:18:45Z INFO CommandLineParser] HasArgs: False
+[2020-03-17 23:18:45Z INFO CommandLineParser] Adding Command: run
+[2020-03-17 23:18:45Z INFO Listener] Arguments parsed
+[2020-03-17 23:18:45Z INFO Runner] ExecuteCommand
+[2020-03-17 23:18:45Z INFO ConfigurationStore] currentAssemblyLocation: K:\actions-runner\bin\Runner.Listener.dll
+[2020-03-17 23:18:45Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 23:18:45Z INFO ConfigurationStore] binPath: K:\actions-runner\bin
+[2020-03-17 23:18:45Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 23:18:45Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 23:18:45Z INFO ConfigurationStore] RootFolder: K:\actions-runner
+[2020-03-17 23:18:45Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 23:18:45Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 23:18:45Z INFO HostContext] Well known config file 'Runner': 'K:\actions-runner\.runner'
+[2020-03-17 23:18:45Z INFO ConfigurationStore] ConfigFilePath: K:\actions-runner\.runner
+[2020-03-17 23:18:45Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 23:18:45Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 23:18:45Z INFO HostContext] Well known config file 'Credentials': 'K:\actions-runner\.credentials'
+[2020-03-17 23:18:45Z INFO ConfigurationStore] CredFilePath: K:\actions-runner\.credentials
+[2020-03-17 23:18:45Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 23:18:45Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 23:18:45Z INFO HostContext] Well known config file 'Service': 'K:\actions-runner\.service'
+[2020-03-17 23:18:45Z INFO ConfigurationStore] ServiceConfigFilePath: K:\actions-runner\.service
+[2020-03-17 23:18:45Z INFO CommandSettings] Flag 'help': 'False'
+[2020-03-17 23:18:45Z INFO CommandSettings] Flag 'version': 'False'
+[2020-03-17 23:18:45Z INFO CommandSettings] Flag 'commit': 'False'
+[2020-03-17 23:18:45Z INFO CommandSettings] Command 'configure': 'False'
+[2020-03-17 23:18:45Z INFO CommandSettings] Command 'remove': 'False'
+[2020-03-17 23:18:45Z INFO CommandSettings] Command 'warmup': 'False'
+[2020-03-17 23:18:45Z INFO ConfigurationManager] LoadSettings
+[2020-03-17 23:18:45Z INFO ConfigurationStore] IsConfigured()
+[2020-03-17 23:18:45Z INFO ConfigurationStore] IsConfigured: True
+[2020-03-17 23:18:45Z INFO ConfigurationManager] Is configured: True
+[2020-03-17 23:18:45Z INFO ConfigurationStore] Read setting file: 295 chars
+[2020-03-17 23:18:47Z INFO ConfigurationManager] Settings Loaded
+[2020-03-17 23:18:47Z INFO ConfigurationStore] IsServiceConfigured()
+[2020-03-17 23:18:47Z INFO ConfigurationStore] IsServiceConfigured: False
+[2020-03-17 23:18:47Z INFO CommandSettings] Command 'run': 'True'
+[2020-03-17 23:18:47Z INFO ConfigurationStore] IsConfigured()
+[2020-03-17 23:18:47Z INFO ConfigurationStore] IsConfigured: True
+[2020-03-17 23:18:47Z INFO ConfigurationManager] Is configured: True
+[2020-03-17 23:18:47Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2020-03-17 23:18:47Z INFO Runner] Set runner startup type - Manual
+[2020-03-17 23:18:47Z INFO CommandSettings] Flag 'once': 'False'
+[2020-03-17 23:18:47Z INFO Runner] RunAsync
+[2020-03-17 23:18:47Z INFO ConfigurationManager] LoadSettings
+[2020-03-17 23:18:47Z INFO ConfigurationStore] IsConfigured()
+[2020-03-17 23:18:47Z INFO ConfigurationStore] IsConfigured: True
+[2020-03-17 23:18:47Z INFO ConfigurationManager] Is configured: True
+[2020-03-17 23:18:47Z INFO ConfigurationManager] Settings Loaded
+[2020-03-17 23:18:47Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "SERVER",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/",
+  "GitHubUrl": "https://github.com/CIRCERO/local.repo",
+  "WorkFolder": "local.repo"
+}
+[2020-03-17 23:18:47Z INFO MessageListener] Loading Credentials
+[2020-03-17 23:18:47Z INFO ConfigurationStore] HasCredentials()
+[2020-03-17 23:18:47Z INFO ConfigurationStore] stored True
+[2020-03-17 23:18:47Z INFO CredentialManager] GetCredentialProvider
+[2020-03-17 23:18:47Z INFO CredentialManager] Creating type OAuth
+[2020-03-17 23:18:47Z INFO CredentialManager] Creating credential type: OAuth
+[2020-03-17 23:18:47Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 23:18:47Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 23:18:47Z INFO HostContext] Well known config file 'RSACredentials': 'K:\actions-runner\.credentials_rsaparams'
+[2020-03-17 23:18:47Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file K:\actions-runner\.credentials_rsaparams
+[2020-03-17 23:18:48Z INFO MessageListener] Attempt to create session.
+[2020-03-17 23:18:48Z INFO MessageListener] Connecting to the Runner Server...
+[2020-03-17 23:18:48Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-03-17 23:18:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-17 23:18:58Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-03-17 23:18:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-17 23:18:58Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-03-17 23:18:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-17 23:19:01Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-17 23:19:01Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-17 23:19:01Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-17 23:19:02Z INFO MessageListener] VssConnection created
+[2020-03-17 23:19:02Z INFO Terminal] WRITE LINE: 
+[2020-03-17 23:19:03Z INFO Terminal] WRITE LINE: 
+[2020-03-17 23:19:03Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 0ab73e13-6983-48af-9dbc-f273fce121d7
+ActivityId: 0c43dee9-d050-4fd3-9709-583a24207297
+X-TFS-Session: 65ad6958-8c97-4e5b-8aa0-15e4c0f0794a
+X-VSS-E2EID: 0d9a04b4-8283-4a5b-b4f3-6823c45dff1a
+X-VSS-SenderDeploymentId: d624195d-30e0-1768-06a5-b10a7879c7db
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005a-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: A744FFCF51B64F22BDF4ECFA337BDEAA Ref B: LON21EDGE0509 Ref C: 2020-03-17T23:19:04Z
+Date: Tue, 17 Mar 2020 23:19:03 GMT
+
+[2020-03-17 23:19:03Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file K:\actions-runner\.credentials_rsaparams
+[2020-03-17 23:19:04Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file K:\actions-runner\.credentials_rsaparams
+[2020-03-17 23:19:05Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-03-17 23:19:05Z INFO MessageListener] Session created.
+[2020-03-17 23:19:05Z INFO Terminal] WRITE LINE: 2020-03-17 23:19:05Z: Listening for Jobs
+[2020-03-17 23:19:05Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2020-03-17 23:49:16Z INFO MessageListener] No message retrieved from session 'b36b57c2-7cd8-47d9-84e3-0dd044f7bf52' within last 30 minutes.
+[2020-03-18 00:14:25Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: ce3b8bd1-6511-4c42-bbeb-2c822fcf08a1
+ActivityId: 70fe0696-892f-4d56-b6a7-5fd401548610
+X-TFS-Session: 65ad6958-8c97-4e5b-8aa0-15e4c0f0794a
+X-VSS-E2EID: b10143df-5311-4f17-926f-2e78490fb5cb
+X-VSS-SenderDeploymentId: d624195d-30e0-1768-06a5-b10a7879c7db
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005a-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: 5BB574F7BAEE4295B724417C93869686 Ref B: LON21EDGE1116 Ref C: 2020-03-18T00:14:25Z
+Date: Wed, 18 Mar 2020 00:14:25 GMT
+
+[2020-03-18 00:14:25Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file K:\actions-runner\.credentials_rsaparams
+[2020-03-18 00:14:26Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-03-18 00:19:28Z INFO MessageListener] No message retrieved from session 'b36b57c2-7cd8-47d9-84e3-0dd044f7bf52' within last 30 minutes.
+[2020-03-18 00:49:37Z INFO MessageListener] No message retrieved from session 'b36b57c2-7cd8-47d9-84e3-0dd044f7bf52' within last 30 minutes.
+[2020-03-18 01:09:44Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: ce3b8bd1-6511-4c42-bbeb-2c822fcf08a1
+ActivityId: 70f02d41-892f-4d56-b6a7-5fd401548610
+X-TFS-Session: 65ad6958-8c97-4e5b-8aa0-15e4c0f0794a
+X-VSS-E2EID: 06312610-98fa-40ef-bb5c-df76a0937fe4
+X-VSS-SenderDeploymentId: d624195d-30e0-1768-06a5-b10a7879c7db
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005a-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: 085F010C474F464697E20262D5EEADFB Ref B: LON21EDGE1116 Ref C: 2020-03-18T01:09:44Z
+Date: Wed, 18 Mar 2020 01:09:44 GMT
+
+[2020-03-18 01:09:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file K:\actions-runner\.credentials_rsaparams
+[2020-03-18 01:09:45Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-03-18 01:19:49Z INFO MessageListener] No message retrieved from session 'b36b57c2-7cd8-47d9-84e3-0dd044f7bf52' within last 30 minutes.
+[2020-03-18 01:49:58Z INFO MessageListener] No message retrieved from session 'b36b57c2-7cd8-47d9-84e3-0dd044f7bf52' within last 30 minutes.

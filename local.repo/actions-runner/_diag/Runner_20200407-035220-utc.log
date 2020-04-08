@@ -1,0 +1,60 @@
+[2020-04-07 03:52:20Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2020-04-07 03:52:20Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2020-04-07 03:52:20Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19041.
+[2020-04-07 03:52:20Z INFO Listener] Version: 2.165.2
+[2020-04-07 03:52:20Z INFO Listener] Commit: fcf795d86d880b9f0bd10f9713d29cb9784ecef5
+[2020-04-07 03:52:20Z INFO Listener] Culture: en-GB
+[2020-04-07 03:52:20Z INFO Listener] UI Culture: en-US
+[2020-04-07 03:52:20Z INFO HostContext] Well known directory 'Bin': 'K:\CIRCERO\local.repo\actions-runner\bin'
+[2020-04-07 03:52:20Z INFO HostContext] Well known directory 'Root': 'K:\CIRCERO\local.repo\actions-runner'
+[2020-04-07 03:52:20Z INFO Listener] Validating directory permissions for: 'K:\CIRCERO\local.repo\actions-runner'
+[2020-04-07 03:52:20Z INFO CommandLineParser] Parse
+[2020-04-07 03:52:20Z INFO CommandLineParser] Parsing 1 args
+[2020-04-07 03:52:20Z INFO CommandLineParser] parsing argument
+[2020-04-07 03:52:20Z INFO CommandLineParser] HasArgs: False
+[2020-04-07 03:52:20Z INFO CommandLineParser] Adding Command: configure
+[2020-04-07 03:52:20Z INFO Listener] Arguments parsed
+[2020-04-07 03:52:20Z INFO Runner] ExecuteCommand
+[2020-04-07 03:52:20Z INFO ConfigurationStore] currentAssemblyLocation: K:\CIRCERO\local.repo\actions-runner\bin\Runner.Listener.dll
+[2020-04-07 03:52:20Z INFO HostContext] Well known directory 'Bin': 'K:\CIRCERO\local.repo\actions-runner\bin'
+[2020-04-07 03:52:20Z INFO ConfigurationStore] binPath: K:\CIRCERO\local.repo\actions-runner\bin
+[2020-04-07 03:52:20Z INFO HostContext] Well known directory 'Bin': 'K:\CIRCERO\local.repo\actions-runner\bin'
+[2020-04-07 03:52:20Z INFO HostContext] Well known directory 'Root': 'K:\CIRCERO\local.repo\actions-runner'
+[2020-04-07 03:52:20Z INFO ConfigurationStore] RootFolder: K:\CIRCERO\local.repo\actions-runner
+[2020-04-07 03:52:20Z INFO HostContext] Well known directory 'Bin': 'K:\CIRCERO\local.repo\actions-runner\bin'
+[2020-04-07 03:52:20Z INFO HostContext] Well known directory 'Root': 'K:\CIRCERO\local.repo\actions-runner'
+[2020-04-07 03:52:20Z INFO HostContext] Well known config file 'Runner': 'K:\CIRCERO\local.repo\actions-runner\.runner'
+[2020-04-07 03:52:20Z INFO ConfigurationStore] ConfigFilePath: K:\CIRCERO\local.repo\actions-runner\.runner
+[2020-04-07 03:52:20Z INFO HostContext] Well known directory 'Bin': 'K:\CIRCERO\local.repo\actions-runner\bin'
+[2020-04-07 03:52:20Z INFO HostContext] Well known directory 'Root': 'K:\CIRCERO\local.repo\actions-runner'
+[2020-04-07 03:52:20Z INFO HostContext] Well known config file 'Credentials': 'K:\CIRCERO\local.repo\actions-runner\.credentials'
+[2020-04-07 03:52:20Z INFO ConfigurationStore] CredFilePath: K:\CIRCERO\local.repo\actions-runner\.credentials
+[2020-04-07 03:52:20Z INFO HostContext] Well known directory 'Bin': 'K:\CIRCERO\local.repo\actions-runner\bin'
+[2020-04-07 03:52:20Z INFO HostContext] Well known directory 'Root': 'K:\CIRCERO\local.repo\actions-runner'
+[2020-04-07 03:52:20Z INFO HostContext] Well known config file 'Service': 'K:\CIRCERO\local.repo\actions-runner\.service'
+[2020-04-07 03:52:20Z INFO ConfigurationStore] ServiceConfigFilePath: K:\CIRCERO\local.repo\actions-runner\.service
+[2020-04-07 03:52:20Z INFO CommandSettings] Flag 'help': 'False'
+[2020-04-07 03:52:20Z INFO CommandSettings] Flag 'version': 'False'
+[2020-04-07 03:52:20Z INFO CommandSettings] Flag 'commit': 'False'
+[2020-04-07 03:52:20Z INFO CommandSettings] Command 'configure': 'True'
+[2020-04-07 03:52:21Z INFO Terminal] WRITE LINE: 
+[2020-04-07 03:52:21Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-04-07 03:52:21Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2020-04-07 03:52:21Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2020-04-07 03:52:21Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2020-04-07 03:52:21Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2020-04-07 03:52:21Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2020-04-07 03:52:21Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-04-07 03:52:21Z INFO Terminal] WRITE: |                       
+[2020-04-07 03:52:21Z INFO Terminal] WRITE: Self-hosted runner registration
+[2020-04-07 03:52:21Z INFO Terminal] WRITE LINE:                         |
+[2020-04-07 03:52:21Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-04-07 03:52:21Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-04-07 03:52:21Z INFO ConfigurationManager] ConfigureAsync
+[2020-04-07 03:52:21Z INFO ConfigurationStore] IsConfigured()
+[2020-04-07 03:52:21Z INFO ConfigurationStore] IsConfigured: True
+[2020-04-07 03:52:21Z INFO ConfigurationManager] Is configured: True
+[2020-04-07 03:52:21Z ERR  Runner] System.InvalidOperationException: Cannot configure the runner because it is already configured. To reconfigure the runner, run 'config.cmd remove' or './config.sh remove' first.
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2020-04-07 03:52:21Z ERR  Terminal] WRITE ERROR: Cannot configure the runner because it is already configured. To reconfigure the runner, run 'config.cmd remove' or './config.sh remove' first.

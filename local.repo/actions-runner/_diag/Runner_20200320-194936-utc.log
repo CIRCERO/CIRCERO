@@ -1,0 +1,251 @@
+[2020-03-20 19:49:36Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2020-03-20 19:49:36Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2020-03-20 19:49:36Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19041.
+[2020-03-20 19:49:36Z INFO Listener] Version: 2.165.2
+[2020-03-20 19:49:36Z INFO Listener] Commit: fcf795d86d880b9f0bd10f9713d29cb9784ecef5
+[2020-03-20 19:49:36Z INFO Listener] Culture: en-GB
+[2020-03-20 19:49:36Z INFO Listener] UI Culture: en-US
+[2020-03-20 19:49:36Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-20 19:49:36Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-20 19:49:36Z INFO Listener] Validating directory permissions for: 'K:\actions-runner'
+[2020-03-20 19:49:36Z INFO CommandLineParser] Parse
+[2020-03-20 19:49:36Z INFO CommandLineParser] Parsing 1 args
+[2020-03-20 19:49:36Z INFO CommandLineParser] parsing argument
+[2020-03-20 19:49:36Z INFO CommandLineParser] HasArgs: False
+[2020-03-20 19:49:36Z INFO CommandLineParser] Adding Command: run
+[2020-03-20 19:49:36Z INFO Listener] Arguments parsed
+[2020-03-20 19:49:36Z INFO Runner] ExecuteCommand
+[2020-03-20 19:49:36Z INFO ConfigurationStore] currentAssemblyLocation: K:\actions-runner\bin\Runner.Listener.dll
+[2020-03-20 19:49:36Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-20 19:49:36Z INFO ConfigurationStore] binPath: K:\actions-runner\bin
+[2020-03-20 19:49:36Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-20 19:49:36Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-20 19:49:36Z INFO ConfigurationStore] RootFolder: K:\actions-runner
+[2020-03-20 19:49:36Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-20 19:49:36Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-20 19:49:36Z INFO HostContext] Well known config file 'Runner': 'K:\actions-runner\.runner'
+[2020-03-20 19:49:36Z INFO ConfigurationStore] ConfigFilePath: K:\actions-runner\.runner
+[2020-03-20 19:49:36Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-20 19:49:36Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-20 19:49:36Z INFO HostContext] Well known config file 'Credentials': 'K:\actions-runner\.credentials'
+[2020-03-20 19:49:36Z INFO ConfigurationStore] CredFilePath: K:\actions-runner\.credentials
+[2020-03-20 19:49:36Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-20 19:49:36Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-20 19:49:36Z INFO HostContext] Well known config file 'Service': 'K:\actions-runner\.service'
+[2020-03-20 19:49:36Z INFO ConfigurationStore] ServiceConfigFilePath: K:\actions-runner\.service
+[2020-03-20 19:49:36Z INFO CommandSettings] Flag 'help': 'False'
+[2020-03-20 19:49:36Z INFO CommandSettings] Flag 'version': 'False'
+[2020-03-20 19:49:36Z INFO CommandSettings] Flag 'commit': 'False'
+[2020-03-20 19:49:36Z INFO CommandSettings] Command 'configure': 'False'
+[2020-03-20 19:49:36Z INFO CommandSettings] Command 'remove': 'False'
+[2020-03-20 19:49:36Z INFO CommandSettings] Command 'warmup': 'False'
+[2020-03-20 19:49:36Z INFO ConfigurationManager] LoadSettings
+[2020-03-20 19:49:36Z INFO ConfigurationStore] IsConfigured()
+[2020-03-20 19:49:36Z INFO ConfigurationStore] IsConfigured: True
+[2020-03-20 19:49:36Z INFO ConfigurationManager] Is configured: True
+[2020-03-20 19:49:36Z INFO ConfigurationStore] Read setting file: 295 chars
+[2020-03-20 19:49:37Z INFO ConfigurationManager] Settings Loaded
+[2020-03-20 19:49:37Z INFO ConfigurationStore] IsServiceConfigured()
+[2020-03-20 19:49:37Z INFO ConfigurationStore] IsServiceConfigured: False
+[2020-03-20 19:49:37Z INFO CommandSettings] Command 'run': 'True'
+[2020-03-20 19:49:37Z INFO ConfigurationStore] IsConfigured()
+[2020-03-20 19:49:37Z INFO ConfigurationStore] IsConfigured: True
+[2020-03-20 19:49:37Z INFO ConfigurationManager] Is configured: True
+[2020-03-20 19:49:37Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2020-03-20 19:49:37Z INFO Runner] Set runner startup type - Manual
+[2020-03-20 19:49:37Z INFO CommandSettings] Flag 'once': 'False'
+[2020-03-20 19:49:37Z INFO Runner] RunAsync
+[2020-03-20 19:49:37Z INFO ConfigurationManager] LoadSettings
+[2020-03-20 19:49:37Z INFO ConfigurationStore] IsConfigured()
+[2020-03-20 19:49:37Z INFO ConfigurationStore] IsConfigured: True
+[2020-03-20 19:49:37Z INFO ConfigurationManager] Is configured: True
+[2020-03-20 19:49:37Z INFO ConfigurationManager] Settings Loaded
+[2020-03-20 19:49:37Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "SERVER",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/",
+  "GitHubUrl": "https://github.com/CIRCERO/local.repo",
+  "WorkFolder": "local.repo"
+}
+[2020-03-20 19:49:37Z INFO MessageListener] Loading Credentials
+[2020-03-20 19:49:37Z INFO ConfigurationStore] HasCredentials()
+[2020-03-20 19:49:37Z INFO ConfigurationStore] stored True
+[2020-03-20 19:49:37Z INFO CredentialManager] GetCredentialProvider
+[2020-03-20 19:49:37Z INFO CredentialManager] Creating type OAuth
+[2020-03-20 19:49:37Z INFO CredentialManager] Creating credential type: OAuth
+[2020-03-20 19:49:37Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-20 19:49:37Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-20 19:49:37Z INFO HostContext] Well known config file 'RSACredentials': 'K:\actions-runner\.credentials_rsaparams'
+[2020-03-20 19:49:37Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file K:\actions-runner\.credentials_rsaparams
+[2020-03-20 19:49:38Z INFO MessageListener] Attempt to create session.
+[2020-03-20 19:49:38Z INFO MessageListener] Connecting to the Runner Server...
+[2020-03-20 19:49:38Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-03-20 19:49:38Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-20 19:49:38Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-03-20 19:49:38Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-20 19:49:38Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-03-20 19:49:38Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-20 19:49:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-20 19:49:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-20 19:49:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-20 19:49:41Z INFO MessageListener] VssConnection created
+[2020-03-20 19:49:41Z INFO Terminal] WRITE LINE: 
+[2020-03-20 19:49:41Z INFO Terminal] WRITE LINE: 
+[2020-03-20 19:49:41Z WARN GitHubActionsService] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://pipelines.actions.githubusercontent.com/serviceDeployments/pipelinesghubeus22", Bearer, TFS-Federated
+X-TFS-ProcessId: b0f52710-2996-4ff1-9543-b995e49693ef
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: b4d47311-14e7-413f-9569-d8905f96de8f
+X-TFS-Session: ca699c71-dcf3-461a-ad2c-0d2f7646d1bf
+X-VSS-E2EID: 2f937050-2765-4cfe-869f-43be1df8482a
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://pipelines.actions.githubusercontent.com/serviceDeployments/pipelinesghubeus22
+X-TFS-FedAuthIssuer: https://www.visualstudio.com/
+X-VSS-AuthorizationEndpoint: https://vssps.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 0000005a-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://github.com
+Request-Context: appId=cid-v1:d74a64c6-afea-44df-86c1-871592e1cd57
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: C66802E317154573AC44A2609AD84611 Ref B: AM3EDGE0918 Ref C: 2020-03-20T19:49:39Z
+Date: Fri, 20 Mar 2020 19:49:39 GMT
+
+[2020-03-20 19:49:41Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file K:\actions-runner\.credentials_rsaparams
+[2020-03-20 19:49:41Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file K:\actions-runner\.credentials_rsaparams
+[2020-03-20 19:49:43Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-03-20 19:49:43Z INFO MessageListener] Session created.
+[2020-03-20 19:49:43Z INFO Terminal] WRITE LINE: 2020-03-20 19:49:43Z: Listening for Jobs
+[2020-03-20 19:49:43Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2020-03-20 20:19:54Z INFO MessageListener] No message retrieved from session '0b692eef-0a82-4c43-b6a0-cf27e399b3c7' within last 30 minutes.
+[2020-03-20 20:41:13Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/_apis/distributedtask/pools/1/messages?sessionId=0b692eef-0a82-4c43-b6a0-cf27e399b3c7 failed (HTTP Status: ServiceUnavailable, AFD Ref: Ref A: 8E9F2AFB9DA74E5B9E2391E4AC7D1EA1 Ref B: AM3EDGE0918 Ref C: 2020-03-20T20:40:50Z). The operation will be retried in 10.952 seconds.
+[2020-03-20 20:44:57Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/_apis/distributedtask/pools/1/messages?sessionId=0b692eef-0a82-4c43-b6a0-cf27e399b3c7 failed (HTTP Status: ServiceUnavailable, AFD Ref: Ref A: C55240B76FF045B0AEC3CC32D5400DDA Ref B: AM3EDGE0918 Ref C: 2020-03-20T20:44:44Z). The operation will be retried in 11.025 seconds.
+[2020-03-20 20:45:09Z WARN GitHubActionsService] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://pipelines.actions.githubusercontent.com/serviceDeployments/pipelinesghubeus22", Bearer, TFS-Federated
+X-TFS-ProcessId: 21532ffb-ca58-4660-8252-d25ae573913e
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 9069c408-612e-4dec-8d02-ef2d2dad5543
+X-TFS-Session: ca699c71-dcf3-461a-ad2c-0d2f7646d1bf
+X-VSS-E2EID: b0ca76ba-f1f7-41be-abeb-af69646f46b1
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://pipelines.actions.githubusercontent.com/serviceDeployments/pipelinesghubeus22
+X-TFS-FedAuthIssuer: https://www.visualstudio.com/
+X-VSS-AuthorizationEndpoint: https://vssps.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 0000005a-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://github.com
+Request-Context: appId=cid-v1:d74a64c6-afea-44df-86c1-871592e1cd57
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: B76D3A1959CF45CA9917426C5CEC321D Ref B: AM3EDGE0918 Ref C: 2020-03-20T20:45:07Z
+Date: Fri, 20 Mar 2020 20:45:07 GMT
+
+[2020-03-20 20:45:09Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file K:\actions-runner\.credentials_rsaparams
+[2020-03-20 20:45:11Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-03-20 20:50:12Z INFO MessageListener] No message retrieved from session '0b692eef-0a82-4c43-b6a0-cf27e399b3c7' within last 30 minutes.
+[2020-03-20 21:10:32Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/_apis/distributedtask/pools/1/messages?sessionId=0b692eef-0a82-4c43-b6a0-cf27e399b3c7 timed out after 60 seconds.
+[2020-03-20 21:10:32Z ERR  MessageListener] Catch exception during get next message.
+[2020-03-20 21:10:33Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2020-03-20 21:10:33Z ERR  MessageListener] #####################################################
+[2020-03-20 21:10:33Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2020-03-20 21:10:33Z ERR  MessageListener] #####################################################
+[2020-03-20 21:10:33Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+[2020-03-20 21:10:33Z ERR  MessageListener] #####################################################
+[2020-03-20 21:10:33Z ERR  MessageListener] System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+[2020-03-20 21:10:33Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2020-03-20 21:10:33Z ERR  Terminal] WRITE ERROR: 2020-03-20 21:10:33Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2020-03-20 21:10:33Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2020-03-20 21:10:33Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-03-20 21:10:33Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-20 21:10:35Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-20 21:10:35Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2020-03-20 21:11:53Z INFO Terminal] WRITE LINE: 2020-03-20 21:11:53Z: Runner reconnected.
+[2020-03-20 21:20:17Z INFO MessageListener] No message retrieved from session '0b692eef-0a82-4c43-b6a0-cf27e399b3c7' within last 30 minutes.
+[2020-03-20 21:27:15Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/_apis/distributedtask/pools/1/messages?sessionId=0b692eef-0a82-4c43-b6a0-cf27e399b3c7 failed (HTTP Status: ServiceUnavailable, AFD Ref: Ref A: 6452D6A7C7924445BFB9EF2F5DF64D8B Ref B: CPT02EDGE0218 Ref C: 2020-03-20T21:26:59Z). The operation will be retried in 10.821 seconds.
+[2020-03-20 21:40:53Z WARN GitHubActionsService] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://pipelines.actions.githubusercontent.com/serviceDeployments/pipelinesghubeus22", Bearer, TFS-Federated
+X-TFS-ProcessId: 400e19d7-0441-4189-8808-9c0a3d4cdf27
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: ffd7122f-83e8-4c2c-82bd-1c47c6b3de45
+X-TFS-Session: ca699c71-dcf3-461a-ad2c-0d2f7646d1bf
+X-VSS-E2EID: e198cb80-d017-4d8a-92bc-ee6f6a95265a
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://pipelines.actions.githubusercontent.com/serviceDeployments/pipelinesghubeus22
+X-TFS-FedAuthIssuer: https://www.visualstudio.com/
+X-VSS-AuthorizationEndpoint: https://vssps.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 0000005a-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://github.com
+Request-Context: appId=cid-v1:d74a64c6-afea-44df-86c1-871592e1cd57
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-MSEdge-Ref: Ref A: 24E88CEC5E3D466F9CF6F407D408C6EA Ref B: CPT02EDGE0218 Ref C: 2020-03-20T21:40:51Z
+Date: Fri, 20 Mar 2020 21:40:51 GMT
+
+[2020-03-20 21:40:53Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file K:\actions-runner\.credentials_rsaparams
+[2020-03-20 21:40:57Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-03-20 21:40:57Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (4.0936556 seconds)
+[2020-03-20 21:51:02Z INFO MessageListener] No message retrieved from session '0b692eef-0a82-4c43-b6a0-cf27e399b3c7' within last 30 minutes.
+[2020-03-20 22:14:31Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2020-03-20 22:14:31Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/_apis/distributedtask/pools/1/messages?sessionId=0b692eef-0a82-4c43-b6a0-cf27e399b3c7 has been cancelled.
+[2020-03-20 22:14:31Z INFO MessageListener] Get next message has been cancelled.
+[2020-03-20 22:14:31Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.

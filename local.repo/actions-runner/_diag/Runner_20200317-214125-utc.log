@@ -1,0 +1,148 @@
+[2020-03-17 21:41:25Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2020-03-17 21:41:25Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2020-03-17 21:41:25Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19041.
+[2020-03-17 21:41:25Z INFO Listener] Version: 2.165.2
+[2020-03-17 21:41:25Z INFO Listener] Commit: fcf795d86d880b9f0bd10f9713d29cb9784ecef5
+[2020-03-17 21:41:25Z INFO Listener] Culture: en-GB
+[2020-03-17 21:41:25Z INFO Listener] UI Culture: en-US
+[2020-03-17 21:41:25Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 21:41:25Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 21:41:25Z INFO Listener] Validating directory permissions for: 'K:\actions-runner'
+[2020-03-17 21:41:25Z INFO CommandLineParser] Parse
+[2020-03-17 21:41:25Z INFO CommandLineParser] Parsing 5 args
+[2020-03-17 21:41:25Z INFO CommandLineParser] parsing argument
+[2020-03-17 21:41:25Z INFO CommandLineParser] HasArgs: False
+[2020-03-17 21:41:25Z INFO CommandLineParser] Adding Command: configure
+[2020-03-17 21:41:25Z INFO CommandLineParser] parsing argument
+[2020-03-17 21:41:25Z INFO CommandLineParser] HasArgs: True
+[2020-03-17 21:41:25Z INFO CommandLineParser] arg: url
+[2020-03-17 21:41:25Z INFO CommandLineParser] parsing argument
+[2020-03-17 21:41:25Z INFO CommandLineParser] HasArgs: True
+[2020-03-17 21:41:25Z INFO CommandLineParser] Adding option 'url': 'https://github.com/CIRCERO/local.repo'
+[2020-03-17 21:41:25Z INFO CommandLineParser] parsing argument
+[2020-03-17 21:41:25Z INFO CommandLineParser] HasArgs: True
+[2020-03-17 21:41:25Z INFO CommandLineParser] arg: token
+[2020-03-17 21:41:25Z INFO CommandLineParser] parsing argument
+[2020-03-17 21:41:25Z INFO CommandLineParser] HasArgs: True
+[2020-03-17 21:41:25Z INFO CommandLineParser] Adding option 'token': '***'
+[2020-03-17 21:41:25Z INFO Listener] Arguments parsed
+[2020-03-17 21:41:25Z INFO Runner] ExecuteCommand
+[2020-03-17 21:41:25Z INFO ConfigurationStore] currentAssemblyLocation: K:\actions-runner\bin\Runner.Listener.dll
+[2020-03-17 21:41:25Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 21:41:25Z INFO ConfigurationStore] binPath: K:\actions-runner\bin
+[2020-03-17 21:41:25Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 21:41:25Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 21:41:25Z INFO ConfigurationStore] RootFolder: K:\actions-runner
+[2020-03-17 21:41:25Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 21:41:25Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 21:41:25Z INFO HostContext] Well known config file 'Runner': 'K:\actions-runner\.runner'
+[2020-03-17 21:41:25Z INFO ConfigurationStore] ConfigFilePath: K:\actions-runner\.runner
+[2020-03-17 21:41:25Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 21:41:25Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 21:41:25Z INFO HostContext] Well known config file 'Credentials': 'K:\actions-runner\.credentials'
+[2020-03-17 21:41:25Z INFO ConfigurationStore] CredFilePath: K:\actions-runner\.credentials
+[2020-03-17 21:41:25Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 21:41:25Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 21:41:25Z INFO HostContext] Well known config file 'Service': 'K:\actions-runner\.service'
+[2020-03-17 21:41:25Z INFO ConfigurationStore] ServiceConfigFilePath: K:\actions-runner\.service
+[2020-03-17 21:41:25Z INFO CommandSettings] Flag 'help': 'False'
+[2020-03-17 21:41:25Z INFO CommandSettings] Flag 'version': 'False'
+[2020-03-17 21:41:25Z INFO CommandSettings] Flag 'commit': 'False'
+[2020-03-17 21:41:25Z INFO CommandSettings] Command 'configure': 'True'
+[2020-03-17 21:41:25Z INFO Terminal] WRITE LINE: 
+[2020-03-17 21:41:25Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-03-17 21:41:25Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2020-03-17 21:41:25Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2020-03-17 21:41:25Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2020-03-17 21:41:25Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2020-03-17 21:41:25Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2020-03-17 21:41:25Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-03-17 21:41:25Z INFO Terminal] WRITE: |                       
+[2020-03-17 21:41:25Z INFO Terminal] WRITE: Self-hosted runner registration
+[2020-03-17 21:41:25Z INFO Terminal] WRITE LINE:                         |
+[2020-03-17 21:41:25Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-03-17 21:41:25Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-03-17 21:41:25Z INFO ConfigurationManager] ConfigureAsync
+[2020-03-17 21:41:25Z INFO ConfigurationStore] IsConfigured()
+[2020-03-17 21:41:25Z INFO ConfigurationStore] IsConfigured: False
+[2020-03-17 21:41:25Z INFO ConfigurationManager] Is configured: False
+[2020-03-17 21:41:25Z INFO CommandSettings] Arg 'url': 'https://github.com/CIRCERO/local.repo'
+[2020-03-17 21:41:25Z INFO CommandSettings] Remove url from Arg dictionary.
+[2020-03-17 21:41:25Z INFO CommandSettings] Arg 'token': '***'
+[2020-03-17 21:41:25Z INFO CommandSettings] Remove token from Arg dictionary.
+[2020-03-17 21:41:27Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/repos/CIRCERO/local.repo/actions-runners/registration'
+[2020-03-17 21:41:27Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2020-03-17 21:41:27Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-17 21:41:28Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-17 21:41:28Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-17 21:41:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-17 21:41:29Z INFO ConfigurationManager] Server deployment type: Hosted
+[2020-03-17 21:41:29Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-03-17 21:41:29Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-17 21:41:29Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-03-17 21:41:29Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-17 21:41:29Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-03-17 21:41:29Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-17 21:41:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-17 21:41:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-17 21:41:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-17 21:41:30Z INFO Terminal] WRITE LINE: 
+[2020-03-17 21:41:30Z INFO ConfigurationManager] Test Connection complete.
+[2020-03-17 21:41:30Z INFO HostContext] Well known directory 'Bin': 'K:\actions-runner\bin'
+[2020-03-17 21:41:30Z INFO HostContext] Well known directory 'Root': 'K:\actions-runner'
+[2020-03-17 21:41:30Z INFO HostContext] Well known config file 'RSACredentials': 'K:\actions-runner\.credentials_rsaparams'
+[2020-03-17 21:41:30Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2020-03-17 21:41:30Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file K:\actions-runner\.credentials_rsaparams
+[2020-03-17 21:41:30Z INFO ConfigurationManager] Found a private pool with id {1} and name {2} 1, Default
+[2020-03-17 21:41:30Z INFO CommandSettings] Arg 'name': ''
+[2020-03-17 21:41:30Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-03-17 21:41:30Z INFO PromptManager] ReadValue
+[2020-03-17 21:41:30Z INFO Terminal] WRITE: Enter the name of runner: 
+[2020-03-17 21:41:30Z INFO Terminal] WRITE: [press Enter for SERVER] 
+[2020-03-17 21:41:30Z INFO Terminal] READ LINE
+[2020-03-17 21:41:39Z INFO Terminal] Read value: ''
+[2020-03-17 21:41:39Z INFO PromptManager] Falling back to the default: 'SERVER'
+[2020-03-17 21:41:39Z INFO Terminal] WRITE LINE: 
+[2020-03-17 21:41:40Z INFO ConfigurationManager] Agent server url resolve by server: 'https://pipelines.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/'.
+[2020-03-17 21:41:40Z INFO ConfigurationStore] Saving OAuth credential @ K:\actions-runner\.credentials
+[2020-03-17 21:41:40Z INFO ConfigurationStore] Credentials Saved.
+[2020-03-17 21:41:40Z INFO ConfigurationStore] HasCredentials()
+[2020-03-17 21:41:40Z INFO ConfigurationStore] stored True
+[2020-03-17 21:41:40Z INFO CredentialManager] GetCredentialProvider
+[2020-03-17 21:41:40Z INFO CredentialManager] Creating type OAuth
+[2020-03-17 21:41:40Z INFO CredentialManager] Creating credential type: OAuth
+[2020-03-17 21:41:40Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file K:\actions-runner\.credentials_rsaparams
+[2020-03-17 21:41:40Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-03-17 21:41:40Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-17 21:41:40Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-03-17 21:41:40Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-17 21:41:40Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-03-17 21:41:40Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-03-17 21:41:41Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-17 21:41:41Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-17 21:41:41Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-03-17 21:41:41Z INFO CommandSettings] Arg 'work': ''
+[2020-03-17 21:41:41Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-03-17 21:41:41Z INFO PromptManager] ReadValue
+[2020-03-17 21:41:41Z INFO Terminal] WRITE: Enter name of work folder: 
+[2020-03-17 21:41:41Z INFO Terminal] WRITE: [press Enter for _work] 
+[2020-03-17 21:41:41Z INFO Terminal] READ LINE
+[2020-03-17 21:42:02Z INFO Terminal] Read value: 'local.repo'
+[2020-03-17 21:42:02Z INFO ConfigurationStore] Saving runner settings.
+[2020-03-17 21:42:03Z INFO ConfigurationStore] Settings Saved.
+[2020-03-17 21:42:03Z INFO Terminal] WRITE LINE: 
+[2020-03-17 21:42:03Z INFO Terminal] WRITE LINE: 
+[2020-03-17 21:42:03Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2020-03-17 21:42:03Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-03-17 21:42:03Z INFO PromptManager] ReadValue
+[2020-03-17 21:42:03Z INFO Terminal] WRITE: Would you like to run the runner as service? (Y/N) 
+[2020-03-17 21:42:03Z INFO Terminal] WRITE: [press Enter for N] 
+[2020-03-17 21:42:03Z INFO Terminal] READ LINE
+[2020-03-17 21:42:32Z INFO Terminal] Read value: 'y'
+[2020-03-17 21:42:32Z INFO ConfigurationManager] Configuring to run the agent as service
+[2020-03-17 21:42:32Z ERR  WindowsServiceControlManager] Needs Administrator privileges for configure runner as windows service.
+[2020-03-17 21:42:32Z ERR  Runner] System.Security.SecurityException: Needs Administrator privileges for configuring runner as windows service.
+   at GitHub.Runner.Listener.Configuration.WindowsServiceControlManager.ConfigureService(RunnerSettings settings, CommandSettings command)
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2020-03-17 21:42:32Z ERR  Terminal] WRITE ERROR: Needs Administrator privileges for configuring runner as windows service.

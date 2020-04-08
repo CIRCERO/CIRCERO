@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "SERVER",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/QfYpb7nPf8spnSfY4CCt69Q1h5T0wKuROAEPd52S2dbp2Fk6xd/",
+  "gitHubUrl": "https://github.com/CIRCERO/local.repo",
+  "workFolder": "local.repo"
+}
